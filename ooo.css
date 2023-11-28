@@ -1,0 +1,178 @@
+@import url("https://fonts.google.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500displayswap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://kartinki.pibig.info/uploads/posts/2023-04/1680570241_kartinki-pibig-info-p-nochnoi-gorod-kartinki-risunki-arti-12.jpg");
+    backdrop-filter: blur(2px);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 80%;
+    display: flex;
+    margin: 0px auto;
+    transition: transform 0.3s;
+}
+.container :hover {
+    transform: scale(1.05); 
+}
+.container1 {
+    width: 65%;
+    margin: 0 auto;
+    background-image: url(https://kartinki.pibig.info/uploads/posts/2023-04/1680570241_kartinki-pibig-info-p-nochnoi-gorod-kartinki-risunki-arti-12.jpg);
+    background-position: 0% 0%;
+    padding: 6rem 4rem;
+    color: white;
+}
+.container1 h1 {
+    padding-bottom: 35%;
+    font-family: "Poppins", sans-serif;
+    font-family: "Vina Sans" cursive;
+    font-size: 50px;
+}
+.container1 .title {
+    font-size: 70px;
+}
+.container1 .icon i {
+    margin: 2% 1%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.FormControl {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.FormControl input {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    font-size: 20px;
+}
+.FormControl input::placeholder {
+    color: rgb(255, 255, 255)
+}
+.FormControl span {
+    width: 0%;
+    border-bottom: 2px solid rgb(175, 52, 188);
+    position: absolute;
+    left: 0%;
+    top: 27px;
+    transition: 0.3s;
+    position: absolute;
+}
+.FormControl input:focus ~ span {
+    width: 100%;
+}
+.FormControl small {
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+.FormControl.error input {
+    border-bottom: 2px solid red;
+}
+.container2 {
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container2 h1 {
+    margin-bottom: 100px;
+    padding-left: 5%;
+}
+.container2 button {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(54, 76, 199);
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
+.container2 a {
+    text-decoration: none;
+    color: blueviolet;
+}
+.container2 .content {
+    text-align: center;
+    margin: 50px 0;
+}
+.container2 .content a:hover {
+    text-decoration: underline;
+}
+.container2 button:hover {
+    background-color: rgb(0, 24, 158);
+}
+.FormControl.error small {
+    color: red;
+}
+.FormControl button:hover {
+    transform: translateX(-50%);
+    transform: scale(1.05); 
+}
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 20px;
+}
+nav {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    padding: 0px 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+nav ul li a i {
+    font-size: 20px;
+}
+nav ul:nth-child(2) {
+    width: 100%;
+    justify-content: end;
+}
+.content {
+    margin-top: 20px;
+}
+.content button {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(36, 48, 117);
+    cursor: pointer;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
